@@ -278,7 +278,7 @@ moduleSettings = {
 
 ### Module Overrides
 
-All of the `cbguard` settings can be overriden inside a module. This allows modules, such as an API module, to provide
+All of the `cbguard` settings can be overridden inside a module. This allows modules, such as an API module, to provide
 their own authentication services as well as redirect events.
 
 To specify some overrides, create a `cbguard` struct in your desired module's `settings` in that module's `ModuleConfig.cfc`.
